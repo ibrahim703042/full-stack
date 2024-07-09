@@ -1,0 +1,37 @@
+@use '../utils/' as u;
+
+a,
+a:visited,
+a:active {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+// a:hover {
+//   background-color: transparent;
+//   color: lightblue;
+// }
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: u.rem(15);
+}
+
+// h1 {
+//   font-size: clamp(u.rem(28), u.rem(22) + 2vw, u.rem(40));
+// }
+
+// h2 {
+//   font-size: clamp(u.rem(22), u.rem(16) + 1.5vw, u.rem(36));
+// }
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-size: u.rem(16);
+}

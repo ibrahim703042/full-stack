@@ -1,0 +1,17 @@
+@use '../../utils/' as u;
+
+@include u.breakpoint-up(medium) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .container {
+    display: block;
+    text-align: center;
+  }
+}
+
+// @include u.breakpoint-down(medium) {
+// }
